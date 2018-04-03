@@ -7,8 +7,8 @@ header{
   padding: 25px;
   width: 100%;
   height: 80px;
-  background-color: #08AEEA;
-  background-image: linear-gradient(45deg, #08AEEA 0%, #2AF598 100%);
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   color: white;
   position: relative;
 }
@@ -36,7 +36,7 @@ input{
 }
 #buscar{
   border-radius: 8px;
-  background-color: #3DDE95;
+  background-color: #8E10CE;
   color: white;
   padding: 10px 24px;
   font-family: 'Raleway', sans-serif;
@@ -86,7 +86,7 @@ p{
 }
 .VerMas{
   border-radius: 5px;
-  background-color: #3DDE95;
+  background-color: #8E10CE;
   color: white;
   padding: 5px 20px;
   font-family: 'Raleway', sans-serif;
