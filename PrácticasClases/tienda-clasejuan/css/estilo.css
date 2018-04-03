@@ -1,0 +1,66 @@
+*{
+  margin:0;
+}
+body{
+  background: white;
+  font-family: 'Raleway', sans-serif;
+}
+aside{
+  margin: 10px;
+}
+.container{
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+.orden{
+  margin: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  padding: 5px;
+}
+.filtros{
+  margin: 10px;
+}
+.filtros p{
+  font-size: 20px;
+  padding: 20px;
+}
+input{
+  padding: 50px;
+  margin:10px;
+}
+.products{
+  display: flex;
+  margin: 15px;
+}
+.section1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+article{
+  width: 300px;
+  height: 350px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: grey;
+  border-width: thin;
+  margin: 5px;
+}
+.productos p{
+  text-align: center;
+  font-size: 18px;
+}

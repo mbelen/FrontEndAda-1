@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+header{
+  background: grey;
+  width: auto;
+  height: 110px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+h1{
+  font-size: 25px;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  padding: 10px;
+}
+#perri-left{
+  margin: 10px;
+  float: left;
+}
+#perri-right{
+  margin: 10px;
+  float: right;
+}
+#dog-blue{
+  margin: 10px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+p{
+  color: black;
+}
+
+div{
+  padding: 30px;
+  text-align: center;
+}
+a{
+  font-size: arial;
+  color: black;
+  text-align: center;
+  font-family: arial;
+  text-decoration: none;
+}
+div .container{
+  margin: 30px;
+}
+section figure{
+  background: #660066;
+  width: 40%;
+  display:inline-block;
+  height: 400px;
+  margin: 20px;
+}
+.azul{
+  background: blue;
+  width: 84%;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  text-align: right;
+}
+#dog-yellow{
+  margin: 10px;
+  padding: 10px;
+}
+.amarillo{
+  background: yellow;
+  height:200px;
+  width: 84%;
+  display: inline-block;
+  margin:15px;
+  text-align: left;
+}
+.verde{
+  background: green;
+  width: 26%;
+  height: 500px;
+  display:inline-block;
+  margin: 15px;
+  padding: 10px;
+}
+article{
+  background: green;
+  width: 30%;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  header{
+    height: 150px;
+    margin: 0;
+    position: relative;
+  }
+  section{
+    width: 100%;
+  }
+  figure{
+    width: 100;
+  }
+  #perri-left{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .verde {
+    display: none;
+  }
+  .violeta1{
+    width: 84%;
+    height: 450px;
+    margin: 0;
+  }
+  .violeta2{
+    display: none;
+  }
+  #perri-right{
+    display: none;
+  }
+  h1{
+    text-align: right;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    padding: 30px;
+  }
+  div{
+    position: relative;
+  }
+  nav{
+    padding: 0px;
+    position: fixed;
+    top: 300px;
+    left: 360px;
+    width: 90px;
+    height: 90px;
+  }
+  .container{
+    position: relative;
+    width: 100%;
+  }
+  .amarillo{
+    margin: 0;
+    height: 90px;
+  }
+  #dog-blue{
+    display: none;
+  }
+  #dog-yellow{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+}

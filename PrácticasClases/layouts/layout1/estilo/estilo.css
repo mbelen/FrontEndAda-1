@@ -1,0 +1,70 @@
+*{
+  background: #dddddd;
+}
+div{
+  margin: 0px;
+}
+header, nav{
+  background-color: grey;
+  height: 70px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+}
+.banner{
+  background-color: grey;
+  height: 150px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+}
+aside{
+  background-color: grey;
+  height: 600px;
+  width: 450px;
+  color: white;
+  font-size: 28px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+section{
+  background-color: grey;
+  height: 600px;
+  width: 695px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+.container{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+.areas{
+position: relative;
+margin: 0 auto;
+padding: 0;
+}
+footer{
+  background-color: grey;
+  height: 70px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  position: relative;
+}
+.clearfix{
+  clear: both;
+}

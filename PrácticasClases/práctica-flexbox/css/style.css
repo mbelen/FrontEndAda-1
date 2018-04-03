@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 900px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: right;
+  padding: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+section{
+  width: 900px;
+  height: 90px;
+  display: flex;
+  margin-left: 30px;
+}
+img{
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+}
+article{
+  justify-content: space-around;
+  flex-flow: row;
+  text-align: center;
+  width: 300px;
+  height: 600px;
+  padding: 10px;
+}
+#uno{
+  background-color: #a41b21;
+  color: white;
+}
+#dos{
+  background-color: #fef79d;
+}
+#tres{
+  background-color: #347195;
+  color: white;
+}
+.sinopsis{
+  width: 250px;
+  margin: 15px;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 5px;
+}
